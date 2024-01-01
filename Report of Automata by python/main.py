@@ -37,7 +37,7 @@ def main():
             Current_State].AcceptState else "The DFA does not accept the string."
         print(result)
 
-        ForExit = input("For Another test press any key, \nFor exit press x: ")
+        ForExit = input("For Another test press any key, For exit press x: ")
         if ForExit == 'x':
             break
 
