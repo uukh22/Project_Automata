@@ -74,7 +74,7 @@ int main()
         for (char c : test) Current_State = states[Current_State].transitions[c];
 
         cout << ((states[Current_State].AcceptState)?"The DFA accepts the string.\n":"The DFA does not accept the string.\n");
-        cout << "For Another test press any Key, \n";
+        cout << "For Another test press any Key, ";
         cout << "For exit press x: ";
 
         char ForExit; cin >> ForExit;
